@@ -27,7 +27,7 @@ app.use(www)
 // use ctrl C to quit the function
 
 //or use this following
-app.listen(8000, () => {
+app.listen(80, () => {
     console.log(`running the server on port ${port}! visit http://localhost:${port}`)
 }
 )
@@ -37,3 +37,11 @@ app.listen(8000, () => {
 // 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 (token generated on 11/18)
 
 // type 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@ before the github.com
+
+// commit tracks the changes; last step is to push the file up 
+// git add . (means adding this folder to git)
+// git status to check what is added 
+
+// git commit -m "message" ; 2nd step
+// then to upload it
+// git push
